@@ -1,0 +1,19 @@
+.blue{
+    color: blue;
+}
+#firstdiv{
+    background-color: aqua;
+    color: black;
+}
+#seconddiv{
+    background-color: black;
+    color: white;
+}
+#thirddiv{
+    background-color: rgb(76, 57, 57);
+    color: rgb(172, 44, 44);
+}
+.red{
+    background-color: blueviolet;
+    color: rgb(153, 22, 22);
+}
