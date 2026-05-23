@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selecter Masterclass</title>
+    <style>
+        /* Element Selector */
+        div {
+            color: red;
+            background-color: black;
+        }
+
+        span {
+            color: rgb(255, 255, 255);
+            background-color: rgb(95, 47, 47);
+        }
+
+        /* Class Selector */
+        .one {
+            color: rgb(255, 255, 255);
+            background-color: rgb(47, 95, 47);
+        }
+
+        .two {
+            color: aqua;
+            background-color: blueviolet;
+        }
+
+        /* Id Selector */
+        #one {
+            color: rgb(255, 255, 255);
+            background-color: rgb(47, 47, 95);
+        }
+
+        #two {
+            color: rgb(255, 255, 255);
+            background-color: rgb(95, 47, 47);
+        }
+
+        /* child Selector */
+        div>p {
+            color: rgb(255, 255, 255);
+            background-color: rgb(47, 95, 95);
+        }
+
+        article p {
+            color: rgb(255, 255, 255);
+            background-color: rgb(145, 45, 145);
+        }
+
+        /* Descendant Selector */
+        /* div  p{
+            color: rgb(255, 255, 255);
+            background-color: rgb(145, 145, 45);
+        } */
+        /* universal selector */
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        /* pseudo class selector */
+        a:hover{
+            color: rgb(255, 255, 255);
+            background-color: rgb(47, 95, 47);
+        }
+        a:visited{
+            color: red;
+            
+        }
+        a:link{
+            color: rgb(188, 223, 14);
+        }
+        a:active{
+            background-color: black;
+        }
+        p:first-child{
+            background-color: brown;
+        }
+    </style>
+</head>
+I am a Span in CSS Selecter Masterclass
+
+<body>
+    <div>
+        I am a Div in CSS Selecter Masterclass
+    </div>
+    <span>
+    </span>
+    <div class="one">
+        This is a class Selecter Element
+    </div>
+    <span class="two">
+        This is a class Selecter Element
+    </span>
+    <div id="one">
+        This is id Selecter Element
+    </div>
+    <div id="two">
+        This is id Selecter Element
+    </div>
+    <div>
+        <p>This is a paragraph inside a div.</p>
+    </div>
+    <div>
+        <article>
+            <p>This is a paragraph inside an article.</p>
+        </article>
+    </div>
+        <a href="http://www.google.com" target="_blank">Google</a>
+        <a href="http://www.facebook.com" target="_blank">Facebook</a>
+        <a href="http://www.instagram.com" target="_blank">Instagram</a>
+        <a href="http://www.snapchat.com" target="_blank">Snapchat</a>
+        <a href="http://www.daniyal.techyst.net" target="_blank">Daniyal</a>
+
+        <main>
+            <p>this is first One</p>
+            <p>this is Second</p>
+        </main>
+</body>
+
+</html>
