@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity and Cascade</title>
+    <style>
+        /* This specificity of this selector is 1 */
+        h3 {
+            background-color: aqua;
+            color: black;
+        }
+        /* This specificity of this selector is 10 */
+        .one {
+            color: beige;
+        }
+        /* This specificity of this selector is 10 */
+        h3 .two {
+            color: yellow;
+        }
+        /* This specificity of this selector is 10 */
+        .three {
+            color: rgb(255, 0, 85);
+            /* color: blueviolet !important; */
+        }
+
+        /* Attribute selector *//* This specificity of this selector is 10 */
+        [data-x=a]{
+            background-color: aquamarine;
+        }
+        /* inline selector specificity is 1000 */
+        /* quick quiz */
+
+        /* This specificity of this selector is 1 + 10 + 10 + 10 + 10 = 41 */
+        a.daniyalclass.zeeshan-class[href]:hover{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>
+        <p class="one two three" data-x="a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, corporis!</p>
+    </h3>
+</body>
+
+</html>
