@@ -1,0 +1,95 @@
+* {
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --first: rgb(54, 152, 87);
+            --second: rgba(45, 53, 53, 0.505);
+            --third: rgb(178, 178, 81);
+            --forth: rgb(136, 96, 28);
+            --fifth: rgb(165, 43, 86);
+            --sixth: rgba(151, 151, 85, 0.549);
+
+
+        }
+
+        nav {
+            margin: 20px;
+        }
+
+        nav>ul {
+            background-color: var(--sixth);
+            display: flex;
+            list-style: none;
+            /* flex-wrap: wrap; */
+            /* flex-direction: row; */
+            /* align-content: center; */
+            justify-content: center;
+            /* /* align-items: center; */
+            width: 80vw;
+            margin: 0 auto;
+            border: 1px solid black;
+
+        }
+
+        nav ul li {
+            padding: 15px 30px;
+            border: 1px solid black;
+            margin: 20px;
+            /* width: 80vw; */
+            /* background-color: var(); */
+        }
+
+        nav ul li:nth-child(1) {
+            background-color: var(--first);
+        }
+
+        nav ul li:nth-child(2) {
+            background-color: var(--second);
+        }
+
+        nav ul li:nth-child(3) {
+            background-color: var(--third);
+        }
+
+        nav ul li:nth-child(4) {
+            background-color: var(--forth);
+        }
+
+        nav ul li:nth-child(5) {
+            background-color: var(--fifth);
+        }
+
+        div p {
+
+            background-color: var(--third);
+            padding: 10px 20px;
+            border: 1px solid black;
+            width: 80vw;
+            margin: 0 auto;
+            height: auto;
+
+        }
+
+        .content {
+            background-color: var(--first);
+            display: flex;
+            justify-content: center;
+            /* Center horizontally */
+
+
+            padding: 5px 65px;
+            border: 1px solid black;
+            width: fit-content;
+            margin: 10px auto;
+        }
+
+        footer>h4 {
+            background-color: var(--fifth);
+            margin: 10px auto;
+            text-align: center;
+            width: fit-content;
+            border: 2px solid black;
+            padding: 5px 65px;
+        }
