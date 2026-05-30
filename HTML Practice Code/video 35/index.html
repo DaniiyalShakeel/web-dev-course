@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS Selectors</title>
+    <style>
+        /* .box:first-child {
+            background-color: aquamarine;
+        } */
+
+        /* .box {
+            color: blue;
+
+        } */
+
+        .box::first-letter {
+            color: peru;
+            font-size: 50px;
+        }
+        /* ::file-selector-button{
+            background-color: blue;
+        } */
+        /* universal selector */
+         .boxes *{
+            color:  rgb(151, 14, 14);
+            border: 2px solid black;
+            margin: 20px;
+            padding: 10px;
+            text-align: center;
+
+         }
+        
+         .box:nth-child(odd){
+            background-color: blue;
+            width: 60vw;
+            margin: 10px auto;
+         }
+         /* pseodo elemets */
+         .boxes::before{
+            content: "Hi this is after Element";
+            background-color: red;
+            border: 2px solid black;
+            margin: 0 auto;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            width: 80vw;
+
+         }
+         .boxes::after{
+            content: "Hi this is after Element";
+            background-color: red;
+            border: 2px solid black;
+            margin: 0 auto;
+            width: 80vw;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+         }
+         .boxes::selection{
+            color: rgb(255, 255, 255);
+            background-color: rgb(57, 57, 223);
+         }
+         input::placeholder{
+            color: peru;
+        }
+        input{
+            display: flex;
+            text-align: center;
+            margin: 10px auto;
+            padding: 10px ;
+            border-radius: 8px;
+        }
+        </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">Hi this is my First Class</div>
+        <div class="box">Hi this is my Second Class</div>
+        <div class="box">Hi this is my Third Class</div>
+        <div class="box">Hi this is my Forth Class</div>
+    </div>
+    <input type="text" placeholder="Enter your Name">
+
+</body>
+
+</html>
