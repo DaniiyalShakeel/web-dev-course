@@ -1,0 +1,307 @@
+ * {
+            font-family: Inter, Helvetica, Arial, Lucida, sans-serif;
+        }
+
+        .container {
+            width: 65vw;
+            height: auto;
+            margin: 0 auto;
+            /* border: 2px solid black; */
+            display: grid;
+            list-style: none;
+            gap: 57px;
+
+            grid-template-areas: "nav1 nav2 nav3"
+                "main1 main2 main3"
+                "list1 list2 list3"
+                "set1 set2 set3";
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .download1 button {
+            background-color: rgb(237, 237, 94);
+            margin-top: 9px;
+            padding: 8px;
+            border-radius: 6px;
+            border: none;
+            font-size: small;
+            cursor: pointer;
+
+        }
+
+        .hash1 {
+            margin-top: 8px;
+        }
+
+        .hash1 p {
+            margin-top: 5px;
+            font-size: x-small;
+            padding-bottom: 20px;
+        }
+
+        .item {
+
+            height: 24vh;
+            /* border: 2px solid red; */
+        }
+
+        .item-1 {
+            grid-area: nav1;
+            width: fit-content;
+        }
+
+        .item-1 div {
+            width: 19vw;
+            text-align: center;
+            background-color: rgb(241, 241, 239);
+
+
+        }
+
+        .item-1 div h3 {
+            margin: 0px 0px 0px 0px;
+            padding: 11px;
+        }
+
+        .item-1 div h4 {
+            margin: 0px;
+        }
+
+        .item-2 {
+            grid-area: nav2;
+            width: fit-content;
+
+        }
+
+        .item-2 {
+            grid-area: nav2;
+        }
+
+        .item-2 div {
+            width: 19vw;
+            text-align: center;
+            background-color: rgb(241, 241, 239);
+
+
+        }
+
+        .item-2 div h3 {
+            margin: 0px 0px 0px 0px;
+            padding: 11px;
+        }
+
+        .item-2 div h4 {
+            margin: 0px;
+        }
+
+        .item-3 {
+            grid-area: nav3;
+            width: fit-content;
+        }
+
+        .item-3 {
+            grid-area: nav3;
+        }
+
+        .item-3 div {
+            width: 19vw;
+            text-align: center;
+            background-color: rgb(241, 241, 239);
+
+
+        }
+
+        .item-3 div h3 {
+            margin: 0px 0px 0px 0px;
+            padding: 11px;
+        }
+
+        .item-3 div h4 {
+            margin: 0px;
+        }
+
+        .item-4 {
+            grid-area: main1;
+            width: fit-content;
+        }
+
+        .item-4 {
+            grid-area: main1;
+        }
+
+        .item-4 div {
+            width: 19vw;
+            text-align: center;
+            background-color: rgb(241, 241, 239);
+
+
+        }
+
+        .item-4 div h3 {
+            margin: 0px 0px 0px 0px;
+            padding: 11px;
+        }
+
+        .item-4 div h4 {
+            margin: 0px;
+        }
+
+        .item-5 {
+            grid-area: main2;
+            width: fit-content;
+        }
+
+        .item-5 {
+            grid-area: main2;
+        }
+
+        .item-5 div {
+            width: 19vw;
+            text-align: center;
+            background-color: rgb(241, 241, 239);
+
+
+        }
+
+        .item-5 div h3 {
+            margin: 0px 0px 0px 0px;
+            padding: 11px;
+        }
+
+        .item-5 div h4 {
+            margin: 0px;
+        }
+
+        .item-6 {
+            grid-area: main3;
+            width: fit-content;
+        }
+
+        .item-6 {
+            grid-area: main3;
+        }
+
+        .item-6 div {
+            width: 19vw;
+            text-align: center;
+            background-color: rgb(241, 241, 239);
+
+
+        }
+
+        .item-6 div h3 {
+            margin: 0px 0px 0px 0px;
+            padding: 11px;
+        }
+
+        .item-6 div h4 {
+            margin: 0px;
+        }
+
+        .item-7 {
+            grid-area: list1;
+            width: fit-content;
+        }
+
+        .item-7 {
+            grid-area: list1;
+        }
+
+        .item-7 div {
+            width: 19vw;
+            text-align: center;
+            background-color: rgb(241, 241, 239);
+
+
+        }
+
+        .item-7 div h3 {
+            margin: 0px 0px 0px 0px;
+            padding: 11px;
+        }
+
+        .item-7 div h4 {
+            margin: 0px;
+        }
+
+        .item-8 {
+            grid-area: list2;
+            width: fit-content;
+        }
+
+        .item-8 {
+            grid-area: list2;
+        }
+
+        .item-8 div {
+            width: 19vw;
+            text-align: center;
+            background-color: rgb(241, 241, 239);
+
+
+        }
+
+        .item-8 div h3 {
+            margin: 0px 0px 0px 0px;
+            padding: 11px;
+        }
+
+        .item-8 div h4 {
+            margin: 0px;
+        }
+
+        .item-9 {
+            grid-area: list3;
+            width: fit-content;
+        }
+
+        .item-9 {
+            grid-area: list3;
+        }
+
+        .item-9 div {
+            width: 19vw;
+            text-align: center;
+            background-color: rgb(241, 241, 239);
+
+
+        }
+
+        .item-9 div h3 {
+            margin: 0px 0px 0px 0px;
+            padding: 11px;
+        }
+
+        .item-9 div h4 {
+            margin: 0px;
+        }
+
+        .item-10 {
+            grid-area: set1;
+            width: fit-content;
+        }
+
+        .item-10 {
+            grid-area: set1;
+        }
+
+        .item-10 div {
+            width: 19vw;
+            text-align: center;
+            background-color: rgb(241, 241, 239);
+
+
+        }
+
+        .item-10 div h3 {
+            margin: 0px 0px 0px 0px;
+            padding: 11px;
+        }
+
+        .item-10 div h4 {
+            margin: 0px;
+        }
