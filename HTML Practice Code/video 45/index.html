@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transition Propert</title>
+    <style>
+        .container{
+            width: 50vw;
+            height: 40vh;
+            border: 2px solid black;
+            transition: 1px;;
+            background-color: antiquewhite;
+            
+        }
+        .box{
+            width: 5vw;
+            height: 5vh;
+            border: 2px solid black;
+            margin: 10px;
+            background-color: rgb(170, 113, 28);
+            cursor: pointer;
+            /* transition-property: all;
+            transition-duration: 3s;
+            transition-timing-function: cubic-bezier(0, 1.13, 0.58, 1);
+            transition-delay: 1s; */
+            transition: all 3s cubic-bezier(1, 0.78, 0, 5.07) 1s;
+
+        
+        }
+        .transition{
+            transform: translateX(10vw) translateY(10vh) scaleY(2) ;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+     <div class="container">
+        <div class="box transition "></div>
+     </div>
+</body>
+</html>
