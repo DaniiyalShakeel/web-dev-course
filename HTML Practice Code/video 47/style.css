@@ -1,0 +1,393 @@
+ body {
+     padding: 0;
+     margin: 0;
+     /* font-family: Arial, sans-serif; */
+     font-family: Arial, sans-serif;
+
+ }
+
+ .header {
+     background-color: rgb(255, 220, 92);
+     text-align: center;
+     padding: 10px 0;
+     /* font-family: Arial, sans-serif; */
+     font-size: 17px;
+
+ }
+
+ .header a {
+     color: black;
+     text-decoration: none;
+     font-weight: bold;
+ }
+
+ .header1 {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 80vw;
+     margin: 0 auto;
+     padding: 10px 0;
+     margin-top: 10px;
+     border: 1px solid rgba(0, 0, 0, 0.318);
+     background-color: rgb(173 141 141 / 11%);
+     border-radius: 6px;
+ }
+
+ .container1 {
+     gap: 20px;
+     display: flex;
+     font-family: Arial, sans-serif;
+ }
+
+ .container1 a {
+     color: #2e2e2e;
+     text-decoration: none;
+     font-weight: 500;
+
+ }
+
+ .download {
+     background-color: rgb(255, 220, 92);
+     border: none;
+     padding: 8px 16px;
+     font-weight: bold;
+     border-radius: 4px;
+     cursor: pointer;
+     margin: auto 0;
+     font-family: Arial, sans-serif;
+
+ }
+
+ .english {
+     background-color: transparent;
+     padding: 8px 16px;
+     font-weight: bold;
+     border: none;
+     cursor: pointer;
+     font-family: Arial, sans-serif;
+
+ }
+
+ .main-content {
+     width: 80vw;
+     margin: 20px auto;
+     text-align: center;
+ }
+
+ .main1 {
+     font-size: 53px;
+     /* font-weight: bold; */
+     margin-bottom: 20px;
+     margin-top: 65px;
+
+ }
+
+ .pra {
+     font-size: 19px;
+     /* margin-bottom: 30px; */
+     width: 34vw;
+     color: rgba(0, 0, 0, 0.386);
+     margin: 32px auto;
+ }
+
+ .download-button1 button {
+     background-color: rgb(255, 220, 92);
+     color: rgb(0, 0, 0);
+     font-size: 16px;
+     border: none;
+     border-radius: 5px;
+     padding: 11px 35px;
+ }
+
+ .main2 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+     margin-top: 30px;
+     font-size: 18px;
+     color: #00000062;
+ }
+
+ .language {
+     font-size: 18px;
+     /* font-weight: bold; */
+ }
+
+ .includes-all-languages {
+     /* font-size: 1px; */
+     padding: 10px;
+     /* color: #00000062; */
+ }
+
+ .download-button2 {
+     background-color: rgb(255, 220, 92);
+     color: rgb(0, 0, 0);
+     font-size: 16px;
+     border: none;
+     border-radius: 5px;
+     padding: 11px 35px;
+
+ }
+
+ .SHA256 {
+     padding: 10px;
+     font-size: 8px;
+     /* font-weight: bold; */
+ }
+
+ .p {
+     padding: 10px;
+     font-size: 8px;
+     /* color: #00000062; */
+ }
+
+ .items {
+     padding: 20px;
+     /* border: 1px solid rgba(0, 0, 0, 0.318);6 */
+     background-color: rgb(173 141 141 / 11%);
+     border-radius: 6px;
+     /* display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 20px; */
+
+ }
+
+ .grid {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     gap: 20px;
+     margin-top: 30px;
+ }
+
+ .main2 p {
+     font-size: 14px;
+     text-align: center;
+     margin-top: 16px;
+ }
+
+ .emailbox {
+     background-color: rgb(173 141 141 / 11%);
+     border-radius: 6px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px;
+     margin-top: 30px;
+ }
+
+ .newsletter-container {
+     /* background-color: rgb(173 141 141 / 11%); */
+     display: flex;
+     justify-content: center;
+     gap: 87px;
+     align-items: center;
+
+ }
+
+ .newsletter {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: left;
+     gap: 20px;
+     background-color: white;
+     width: 25vw;
+     font-size: 13px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .news div {
+     font-size: 32px;
+     font-weight: 600;
+ }
+
+ .emailbox {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     border-radius: 6px;
+
+ }
+
+ .emailbox {
+     background-color: rgb(47, 40, 40);
+     width: 25vw;
+ }
+
+ .emailbox p {
+     font-family: Arial, Helvetica, sans-serif;
+     color: #00b6d1 !important;
+     margin-top: 18px;
+     font-size: 28px;
+     font-weight: 600;
+ }
+
+ .emailbox h3 {
+     font-family: Arial, Helvetica, sans-serif;
+     color: white;
+     margin-top: -9px;
+
+ }
+
+ .emailbox input {
+     width: 70%;
+     padding: 10px;
+     /* margin-top: 20px; */
+     border-radius: 6px;
+     border: none;
+ }
+
+ .signup button {
+     margin-top: 20px;
+     padding: 10px 20px;
+     border-radius: 6px;
+     border: none;
+     background-color: rgb(255, 220, 92);
+     color: black;
+     font-size: 14px;
+     cursor: pointer;
+     margin-bottom: 18px;
+ }
+
+ .footer {
+     background-color: rgb(173 141 141 / 11%);
+
+ }
+
+ .detail {
+     font-family: Arial, Helvetica, sans-serif;
+     display: flex;
+     justify-content: space-around;
+     /* gap: 10px; */
+
+     align-content: space-around;
+     align-items: flex-start;
+     width: 60vw;
+     margin: 0px auto;
+
+ }
+
+
+ .EXE-or-MSI {
+     width: 26vw;
+     /* gap: 10px; */
+     /* border: 2px solid black; */
+ }
+
+ .Free-trial-period {
+     width: 26vw;
+     /* border: 2px solid black; */
+ }
+
+ .EXE-or-MSI h3 {
+     font-size: 32px;
+ }
+
+ .Free-trial-period h3 {
+     font-size: 32px;
+ }
+
+ .EXE-or-MSI a,
+ .Free-trial-period a {
+     text-decoration: none;
+     color: #977800 !important;
+ }
+
+ .mainfooter {
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     /* border: 1px solid black; */
+     background-color: rgba(0, 0, 0, 0.895);
+     width: 90vw;
+     margin: 0px auto;
+     padding: 20px;
+     border-radius: 5px;
+     margin-bottom: 42px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .mainfooterdetail {
+     width: 37%;
+     /* border: 2px solid black; */
+     /* background-color: black; */
+     color: white;
+
+ }
+
+ .footercompanyname h4 {
+     font-size: 20px;
+     margin: 0px;
+ }
+
+ .footercompanyname p {
+     font-size: 16px;
+     width: 80%;
+ }
+
+ .newsletter-signup h3 {
+     font-size: 16px;
+     margin-top: 90px;
+     margin-bottom: 7px;
+
+ }
+
+ .Newsletter-signup p {
+     font-size: 14px;
+     margin-top: 0px;
+ }
+
+ .newsletter-signup input {
+     padding: 14px;
+     width: 70%;
+     margin-top: 10px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+ }
+
+ .newsletter-signup button {
+     padding: 10px;
+     margin-top: 10px;
+     background-color: rgb(255, 220, 92);
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+     font-weight: 700;
+     margin-left: -93px;
+ }
+
+ .footer-colume-list {
+     display: flex;
+     color: white;
+
+     justify-content: space-around;
+     align-items: flex-start;
+     width: 47%;
+ }
+
+ .footer-colume ul {
+     list-style: none;
+
+     /* margin: 2px; */
+     padding: 0;
+ }
+
+ .footer-colume ul li {
+     margin-top: 11px;
+
+ }
+
+ .footer-colume ul li a {
+     text-decoration: none;
+     font-size: 13px;
+     color: white;
+ }
+
+ .footer-colume1 {
+     /* margin-left: -50px; */
+     width: 6vw;
+ }
